@@ -21,13 +21,15 @@ app.use((req, res, next) => {
 
 app.post('/', (req, res) => {
 
+    // let message = req, body
     let result = {
-        // let result = {?
-            message: 'Hello',
 
-        };
-        res.send(result);
-    });
+        message: req.body.message,
+        datetime: new Date(),
+
+    };
+    res.send(result);
+});
 
 
 
