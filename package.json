@@ -1,0 +1,22 @@
+{
+  "name": "201207_express_message",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomomichi549/201207_express_message.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomomichi549/201207_express_message/issues"
+  },
+  "homepage": "https://github.com/tomomichi549/201207_express_message#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
